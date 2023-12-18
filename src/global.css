@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=FontAwesome:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --text-label: "DM Sans";
+  --font-awesome: FontAwesome;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --text-label-size: 14px;
+  --font-awesome-size: 18px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-aliceblue-100: #f3fbff;
+  --blue-gray-50: #fbfbfb;
+  --blue-gray-900: #151d20;
+  --color-black: #000;
+  --colors-heading: #1e0e62;
+  --color-midnightblue-100: #191048;
+  --color-midnightblue-200: rgba(25, 16, 72, 0.5);
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-xl: 20px;
+}
