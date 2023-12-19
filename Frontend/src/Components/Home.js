@@ -1,4 +1,374 @@
-.landingPageChild {
+import React from "react";
+
+const Home = () => {
+  return (
+    <>
+      <div className="landingPage">
+        <div className="landingPageChild" />
+        <div className="landingPageItem" />
+        <div className="landingPageInner" />
+        <div className="rectangleDiv" />
+        <div className="ellipseDiv" />
+        <div className="landingPageChild1" />
+        <div className="landingPageChild2" />
+        <div className="landingPageChild3" />
+        <div className="landingPageChild4" />
+        <div className="menuWrapper">
+          <div className="menu">
+            <div className="payonweb">
+              <b href="/" style={{ cursor: "pointer" }} className="pow">
+                payonweb
+              </b>
+            </div>
+            <div
+              href="/product"
+              style={{ cursor: "pointer" }}
+              className="faAngleDown"
+            ></div>
+            <div style={{ cursor: "pointer" }} className="faAngleDown1"></div>
+            <div style={{ cursor: "pointer" }} className="faAngleDown2"></div>
+            <b
+              style={{
+                cursor: "pointer",
+                overflow: "hidden",
+                whitespace: "nowrap",
+              }}
+              className="about"
+            >
+              About us
+            </b>
+            <b style={{ cursor: "pointer" }} className="resources">
+              Resources
+            </b>
+            <b style={{ cursor: "pointer" }} className="industries">
+              Industries
+            </b>
+            <b style={{ cursor: "pointer" }} className="products">
+              Products
+            </b>
+            <div className="loginParent">
+              <div style={{ cursor: "pointer" }} className="login">
+                LOGIN
+              </div>
+              <div style={{ cursor: "pointer" }} className="bookDemoWrapper">
+                <div style={{ cursor: "pointer" }} className="bookDemo">
+                  BOOK DEMO
+                </div>
+              </div>
+              <div className="signupWrapper">
+                <div style={{ cursor: "pointer" }} className="bookDemo">
+                  SIGNUP
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="manWorkingOnNftBlockchain" />
+        <div className="home1Rect">
+          <div className="home1RectChild" />
+          <div className="weHelpBusinesses">
+            We help businesses to grow quickly by accepting the payment methods
+            that your customers prefer across flat and digital currencies.
+          </div>
+          <b className="growYourRevenue">
+            Grow Your Revenue with digital payment Solution
+          </b>
+          <div className="swiftSimpleSecure">Swift Simple Secure</div>
+          <div className="experienceIt">
+            <div className="experienceItChild" />
+            <div style={{ cursor: "pointer" }} className="experienceIt1">
+              Experience it
+            </div>
+          </div>
+        </div>
+        <img
+          className="manWorkingOnNftBlockchain1"
+          alt=""
+          src="/man-working-on-nft-blockchain--1281x1191@2x.png"
+        />
+        <div className="landingPageChild5" />
+        <div className="landingPageChild6" />
+        <div className="landingPageChild7" />
+        <div className="landingPageChild8" />
+        <div className="home2Rect">
+          <div className="home2RectChild" />
+          <div className="convertYourFlat">
+            Convert your flat and digital currencies in one platform instantly
+            and securely without high conversion fees in one go.
+          </div>
+          <b className="multiCurrencySwapWithContainer">
+            <p className="multiCurrencySwap">Multi-Currency Swap</p>
+            <p className="multiCurrencySwap">with low conversion fees</p>
+          </b>
+          <div className="swiftEasy">{`Swift & Easy`}</div>
+          <div className="experienceIt2">
+            <div className="experienceItItem" />
+            <div style={{ cursor: "pointer" }} className="exploreMore">
+              Explore More
+            </div>
+          </div>
+          <img
+            className="nftWallet1280x1067"
+            alt=""
+            src="/nft-wallet--1280x1067@2x.png"
+          />
+        </div>
+        <div className="trustedByBusinesses">Trusted by Businesses</div>
+        <div className="home3">
+          <div className="withPayonwebYouContainer">
+            <span>
+              <span>With</span>
+            </span>
+            <span className="span">
+              <span>{` `}</span>
+              <span>payonweb</span>
+            </span>
+            <span>
+              <span className="span">{`, `}</span>
+              <span>
+                you are able to control everything in one single dashboard to
+                manage your account, multi-currency conversion and payments
+              </span>
+            </span>
+          </div>
+          <b className="wereHereTo">
+            We’re here to help you grow your business
+          </b>
+          <div className="whatWeDo">What we do</div>
+        </div>
+        <div className="asSeenOn">As seen on</div>
+        <div className="wrapperZaobao1Parent">
+          <div className="wrapperZaobao1">
+            <img className="zaobao1Icon" alt="" src="/zaobao-1@2x.png" />
+          </div>
+          <div className="wrapperPitstopTyres1">
+            <img className="zaobao1Icon" alt="" src="/pitstoptyres-1@2x.png" />
+          </div>
+          <div className="wrapperMandalaClub1">
+            <img className="zaobao1Icon" alt="" src="/mandalaclub-1@2x.png" />
+          </div>
+          <div className="wrapperForbes1">
+            <img className="zaobao1Icon" alt="" src="/forbes-1@2x.png" />
+          </div>
+          <div className="wrapperTheBusinessTimes1">
+            <img
+              className="zaobao1Icon"
+              alt=""
+              src="/thebusinesstimes-1@2x.png"
+            />
+          </div>
+          <div className="wrapperMoneyFm1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperLumin2">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperFrame221">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperImgV22c7674ff188b4">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+        </div>
+        <div className="rectangleParent">
+          <div className="frameChild" />
+          <div className="socialmedia">
+            <div className="item">
+              <img className="vectorIcon" alt="" src="/vector@2x.png" />
+            </div>
+            <div className="item">
+              <img className="vectorIcon" alt="" src="/vector@2x.png" />
+            </div>
+            <div className="item2">
+              <img className="vectorIcon2" alt="" src="/vector@2x.png" />
+            </div>
+            <div className="item3">
+              <img className="itemChild" alt="" src="/group-32933@2x.png" />
+            </div>
+          </div>
+          <div className="frameParent">
+            <div className="requestDemoParent">
+              <b style={{ cursor: "pointer" }} className="requestDemo">
+                Request Demo
+              </b>
+              <b style={{ cursor: "pointer" }} className="requestDemo">
+                Contact Us
+              </b>
+              <b style={{ cursor: "pointer" }} className="aboutUs">
+                About Us
+              </b>
+              <div style={{ cursor: "pointer" }} className="whoAreWe">
+                Who are we
+              </div>
+              <div style={{ cursor: "pointer" }} className="careers">
+                Careers
+              </div>
+              <div style={{ cursor: "pointer" }} className="referral">
+                Referral
+              </div>
+            </div>
+            <div className="productsParent">
+              <b style={{ cursor: "pointer" }} className="products1">
+                Products
+              </b>
+              <div style={{ cursor: "pointer" }} className="multiCurrencySwap1">
+                Multi-Currency Swap
+              </div>
+              <div style={{ cursor: "pointer" }} className="checkout">
+                Checkout
+              </div>
+              <div style={{ cursor: "pointer" }} className="checkout">
+                POS+
+              </div>
+              <div style={{ cursor: "pointer" }} className="payonwebCard">
+                payonweb Card
+              </div>
+              <b style={{ cursor: "pointer" }} className="resources1">
+                Resources
+              </b>
+              <div style={{ cursor: "pointer" }} className="checkout">
+                Case Studies
+              </div>
+              <div style={{ cursor: "pointer" }} className="blog">
+                Blog
+              </div>
+              <div style={{ cursor: "pointer" }} className="supportCenter">
+                Support Center
+              </div>
+            </div>
+            <div className="productsParent">
+              <b className="industries1">Industries</b>
+              <div style={{ cursor: "pointer" }} className="checkout">
+                Automotive
+              </div>
+              <div style={{ cursor: "pointer" }} className="checkout">
+                Healthcare
+              </div>
+              <div
+                style={{ cursor: "pointer" }}
+                className="travelHospitality"
+              >{`Travel & Hospitality`}</div>
+              <div style={{ cursor: "pointer" }} className="retail">
+                Retail
+              </div>
+              <div
+                style={{ cursor: "pointer" }}
+                className="professionalServices"
+              >
+                Professional Services
+              </div>
+            </div>
+          </div>
+          <div className="groupParent">
+            <div className="rectangleGroup">
+              <div className="groupChild" />
+              <div className="lowCost">Low cost</div>
+              <div className="transparentPricingAnd">
+                Transparent pricing and we offer cheapest rate in the market to
+                help our clients to grow businesses.
+              </div>
+              <img
+                className="averagePrice12Icon"
+                alt=""
+                src="/averageprice1-2@2x.png"
+              />
+            </div>
+            <div className="rectangleGroup">
+              <div className="groupChild" />
+              <div className="seamlessSecure">{`Seamless & Secure`}</div>
+              <div className="transparentPricingAnd">{`We allow you to accept, transfer crypto and flexibility to withdraw to your wallets seamlessly and securely. `}</div>
+              <img className="wallet2Icon" alt="" src="/wallet-2@2x.png" />
+            </div>
+            <div className="groupDiv">
+              <div className="groupInner" />
+              <div className="regulatedLicensed">{`Regulated & Licensed`}</div>
+              <div className="transparentPricingAnd">
+                We are regulated and licensed digital payment services provider
+                by the Monetary Authority of Singapore (MAS)
+              </div>
+              <img
+                className="wallet2Icon"
+                alt=""
+                src="/energywindow-1@2x.png"
+              />
+            </div>
+          </div>
+          <div className="home31">
+            <div className="weOfferDigital">{`We offer digital payment solutions to help you grow your business. We sole all your payment needs in one place. Increase conversions and costumer satisfaction by offering `}</div>
+            <b className="yourStrategicPartnerContainer">
+              <p className="yourStrategicPartner">Your Strategic partner</p>
+              <p className="inDigitalPayments">in digital payments</p>
+            </b>
+            <div className="whyPayonweb">Why payonweb?</div>
+            <b className="growYourRevenue1">
+              Grow your revenue with digital payment solutions
+            </b>
+            <b className="payonweb2">payonweb</b>
+          </div>
+        </div>
+        <img
+          className="marketPopularityOfNftStar"
+          alt=""
+          src="/market-popularity-of-nft-startup--1280x1067@2x.png"
+        />
+        <img
+          className="dOnlinePaymentWithQrCodeIcon"
+          alt=""
+          src="/1989528853donlinepaymentwithqrcodeconcept-1@2x.png"
+        />
+        <div className="wrapperScoots1Parent">
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/scoots-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img
+              className="zaobao1Icon"
+              alt=""
+              src="/20230530164545-1@2x.png"
+            />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/fintechtimes-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img
+              className="zaobao1Icon"
+              alt=""
+              src="/buildinglegacies-1@2x.png"
+            />
+          </div>
+          <div className="wrapperScoots1">
+            <img
+              className="zaobao1Icon"
+              alt=""
+              src="/beaute-on-aesthetics-1@2x.png"
+            />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+          <div className="wrapperTheGallery1">
+            <img className="zaobao1Icon" alt="" src="/thegallery-1@2x.png" />
+          </div>
+          <div className="wrapperTheGallery1">
+            <img className="zaobao1Icon" alt="" src="/thegallery-1@2x.png" />
+          </div>
+          <div className="wrapperScoots1">
+            <img className="zaobao1Icon" alt="" src="/money-fm-1@2x.png" />
+          </div>
+        </div>
+      </div>
+      <style>
+        {`.landingPageChild {
   top: -413px;
   left: 1115.43px;
   background: radial-gradient(
@@ -369,13 +739,12 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.landingPageChild5 {
-  position: absolute;
-  top: 607px;
-  left: 1229px;
-  border-radius: 50%;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
+.landingP"ageChild5{
+  pos"tio"n: absolue;
+  top": 6"07px;  left: 1229px;
+  bor"er-"radis: 50%;
+  bac"kgr"oun: radia"l-gradient(
+    50% 50%at 50% "0%,
     #edfc43,
     rgba(217, 217, 217, 0)
   );
@@ -1096,3 +1465,10 @@
   color: var(--color-black);
   font-family: var(--font-roboto);
 }
+`}
+      </style>
+    </>
+  );
+};
+
+export default Home;

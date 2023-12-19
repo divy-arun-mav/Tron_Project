@@ -1,66 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=FontAwesome:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 body {
-  @apply leading-[normal] m-0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+  --font-roboto: Roboto;
+  --text-label: "DM Sans";
+  --font-awesome: FontAwesome;
 
-*,
-::before,
-::after {
-  border-width: 0;
-}
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-16xl: 35px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-18xl: 37px;
+  --font-size-42xl: 61px;
+  --font-size-7xl-9: 26.9px;
+  --font-size-base: 16px;
+  --text-label-size: 14px;
+  --font-awesome-size: 18px;
 
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid black;
-  width: max-content;
-  padding: 100px;
-}
+  /* Colors */
+  --color-aliceblue-100: #f3fbff;
+  --colors-heading: #1e0e62;
+  --color-lavender: #dce3ff;
+  --color-royalblue: #516eec;
+  --color-deepskyblue-100: #57b9f1;
+  --blue-gray-50: #fbfbfb;
+  --color-gray-100: #1f2346;
+  --blue-gray-900: #151d20;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-lightskyblue: #92c2ff;
 
-.head-1 {
-  border: 1px solid black;
-  padding: 0 10%;
-  color: rgb(0, 115, 255);
-}
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
 
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: normal;
-  text-align: left;
-}
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
 
-h3 {
-  font-size: 25px;
-}
-
-.chain,
-.asset,
-.amount,
-.address {
-  margin: 20px 0;
-}
-
-button {
-  margin: 10px 0 0 0;
-  padding: 10px;
-  font-size: 15px;
-  width: max-content;
-  background-color: rgb(0, 115, 255);
-  color: white;
-  border-radius: 5px;
-  border: 2px solid rgb(0, 115, 255);
-  cursor: pointer;
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-31xl: 50px;
+  --br-81xl: 100px;
+  --br-lg-7: 18.7px;
+  --br-41xl: 60px;
+  --br-281xl: 300px;
+  --br-9xs: 4px;
 }
